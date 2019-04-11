@@ -6,7 +6,7 @@
 html {
   background: var(--big-color);
   min-height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   content: center;
   font-size: calc(40px + 2nmin);
@@ -23,28 +23,29 @@ html {
   height: 35vmin;
 }
 
-h1 {
-font-size:3em;
-font-family: Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-
-
+.link:hover {
+   font-weight: bold;
+  }
+  
+.tag {
+  position: fixed;
+  font-size: 15px;
+  left: 50%;
+  bottom: 5px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  }
+  
+  .heading {
+    padding: 15px;
+    color: var(--text-color);
+  }
+  
+  @keyframe App-logo-spin{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
