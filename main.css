@@ -1,62 +1,19 @@
-:root {
-  --text-color: #DCD9CD;
-  --title-color: #FFFFFF;
-  --big-color: $5E5E7A;
-
-html {
-  background: var(--big-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  content: center;
-  font-size: calc(40px + 2nmin);
-  font-family: "Sans-Seriff";
-  color: var(--big-color);
+.white-text {
+  color: white;
 }
-
-.main{
-  text-alignt: center;
-  padding-bottom: 25px;
-  }
-
-.logo {
-  height: 35vmin;
-}
-
-.link:hover {
-   font-weight: bold;
-  }
-  
-.tag {
-  position: fixed;
-  font-size: 15px;
-  left: 50%;
-  bottom: 5px;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  }
-  
-  .heading {
-    padding: 15px;
-    color: var(--text-color);
-  }
-  
-  @keyframe App-logo-spin{
-    from{
-      transform: rotate(0deg);
-    }
-    to{
-      transform: rotate(360deg);
-    }
-  }
-  
-  .centered-text{
+.centered-text{
     text-align:center;
   }
   
   .Courier-text{
     font-family: Courier;
   }
+.container{
+    background-color: #66ffff;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
   
   .background{
     background-color: #ff66cc;
