@@ -1,11 +1,10 @@
-.white-text {
+white-text {
   color: white;
 }
-.centered-text{
+centered-text{
     text-align: center;
   }
-  
-  .Courier-text{
+ Courier-text{
     font-family: Courier;
   }
 .container{
@@ -15,10 +14,10 @@
     margin: auto;
 }
   
-  .background{
+ background{
     background-color: #ff66cc;
   }
-  .centered-container{
+  centered-container{
     width: 80%;
     height: 90vh;
     margin: auto;
