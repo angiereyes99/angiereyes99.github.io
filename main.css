@@ -49,3 +49,11 @@ html {
       transform: rotate(360deg);
     }
   }
+  
+  .centered-text{
+    text-align:center;
+  }
+  
+  .sanSerif-text{
+    font-family: sans-serif;
+  }
