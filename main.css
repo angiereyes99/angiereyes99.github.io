@@ -18,6 +18,7 @@ html {
 
 .pic {
 align-items center;
+   background-color: var(--background-color);
 }
 
 .tag {
