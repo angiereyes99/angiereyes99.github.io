@@ -17,8 +17,10 @@ html {
 }
 
 .pic {
-  image-align: center;
-  image-size: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .main {
