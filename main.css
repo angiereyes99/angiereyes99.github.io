@@ -18,7 +18,8 @@ html {
 
 .pic {
 align-items center;
-height: 120px;
+height: 150px;
+right: 200px  
 }
 
 .tag {
