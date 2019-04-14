@@ -23,13 +23,6 @@ html {
   width: 20%;
 }
 
-#rotator img {
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
-}
-
 .main {
   text-align: center;
   padding-bottom: 25px;
