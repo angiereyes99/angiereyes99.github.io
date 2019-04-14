@@ -22,6 +22,11 @@ html {
   margin-right: auto;
   width: 40%;
 }
+#rotator img:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
 
 }
 
