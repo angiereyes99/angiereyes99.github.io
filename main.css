@@ -22,13 +22,6 @@ html {
   margin-right: auto;
   width: 20%;
 }
-#rotator img:hover {
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
--o-transform: rotate(360deg);
--ms-transform: rotate(360deg);
-
-}
 
 #rotator img {
 -webkit-transition: all 1s ease-in-out;
