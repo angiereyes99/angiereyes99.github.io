@@ -1,25 +1,55 @@
-.white-text {
-  color: white;
+:root {
+  --text-color: #DCD9CD;
+  --title-color: #FFFFFF;
+  --background-color: #878f99;
 }
-.centered-text{
-    text-align: center;
-  }
- .Courier-text{
-    font-family: Courier;
-  }
-.container{
-    background-color: #66ffff;
-    width: 90vw;
-    height: 90vh;
-    margin: auto;
+
+html {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  font-family: "Ubuntu";
+  color: var(--main-text-color);
 }
-  
- .background{
-    background-color: #ff66cc;
-  }
-  .centered-container{
-    width: 80%;
-    height: 90vh;
-    margin: auto;
-    background-color: #42bcf4;
+
+.main {
+  text-align: center;
+  padding-bottom: 25px;
 }
+
+.logo {
+  height: 35vmin;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+.tag {
+  position: fixed;
+  font-size: 15px;
+  left: 50%;
+  bottom: 5px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto; 
+}
+.link {
+  color: var(--text-color);
+  font-size: calc(10px + 2vmin);
+  padding: 0 10px; 
+  text-decoration: none;
+}
+
+.heading {
+  padding: 15px;
+  color: var(--text-color);
+}
+
+.sub_heading {
+  font-size: calc(10px + 2vmin);
+  color: var(--text-color);
+}
+
