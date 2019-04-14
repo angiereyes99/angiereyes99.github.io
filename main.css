@@ -21,13 +21,6 @@ html {
   padding-bottom: 25px;
 }
 
-.logo {
-  height: 35vmin;
-}
-
-.link:hover {
-  font-weight: bold;
-}
 .tag {
   position: fixed;
   font-size: 15px;
@@ -42,13 +35,15 @@ html {
   padding: 0 10px; 
   text-decoration: none;
 }
-
+.link:hover {
+  font-weight: 700;
+}
 .heading {
   padding: 15px;
   color: var(--text-color);
 }
 
-.sub_heading {
+.heading2 {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
 }
