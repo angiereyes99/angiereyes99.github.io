@@ -18,6 +18,7 @@ html {
 
 .pic {
   position: relative;
+  background-color: var(--background-color);
     top: -2px;
     left: 50%;
     width: 200px;
