@@ -16,6 +16,11 @@ html {
   color: var(--text-color);
 }
 
+.pic {
+  image-align: center;
+  image-size: 90px;
+}
+
 .main {
   text-align: center;
   padding-bottom: 25px;
