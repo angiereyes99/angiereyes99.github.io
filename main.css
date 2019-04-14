@@ -18,7 +18,7 @@ html {
 
 .pic {
 align-items center;
-   background-color: var(--background-color);
+height: 120px;
 }
 
 .tag {
