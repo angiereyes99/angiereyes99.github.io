@@ -1,6 +1,6 @@
 :root {
   --text-color: #DCD9CD;
-  --background-color: #cfdccd;
+  --background-color: #93e587;
   --title-color: #FFFFFF;
 }
 
@@ -34,7 +34,7 @@ html {
   font-size: 20px;
   padding: 0 10px; 
 }
-.link:hover {
+.link-mouse {
   font-weight: 700;
 }
 .heading {
