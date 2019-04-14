@@ -1,6 +1,6 @@
 :root {
   --text-color: #DCD9CD;
-  --background-color: #6b5b95;
+  --background-color: #cfdccd;
   --title-color: #FFFFFF;
 }
 
@@ -12,7 +12,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size: calc(40px);
-  font-family: "Courier";
+  font-family: "Palatino";
   color: var(--text-color);
 }
 
@@ -31,9 +31,8 @@ html {
 }
 .link {
   color: var(--text-color);
-  font-size: calc(20px);
+  font-size: 20px;
   padding: 0 10px; 
-  text-decoration: none;
 }
 .link:hover {
   font-weight: 700;
