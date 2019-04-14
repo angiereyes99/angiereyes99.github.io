@@ -1,7 +1,7 @@
 :root {
-  --text-color: #DCD9CD;
-  --background-color: #ce42f4;
-  --title-color: #FFFFFF;
+  --text-color: #68697c;
+  --background-color: #428ff4;
+  --title-color: #68697c;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size: calc(40px);
-  font-family: "Palatino";
+  font-family: "Courier";
   color: var(--text-color);
 }
 
