@@ -20,7 +20,7 @@ html {
    display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 20%;
 }
 #rotator img:hover {
 -webkit-transform: rotate(360deg);
