@@ -6,9 +6,10 @@
 
 html {
   background-color: var(--background-color);
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   font-size: calc(40px);
@@ -52,12 +53,10 @@ html {
 .heading {
   padding: 15px;
   color: var(--text-color);
-  text-align: center;
 }
 
 .heading2 {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
-  text-algin: center;
 }
 
