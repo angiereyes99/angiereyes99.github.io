@@ -1,7 +1,7 @@
 :root {
-  --text-color: #603b3b;
-  --background-color: #50b4bf;
-  --title-color: #603b3b;
+  --text-color: #000000;
+  --background-color: #73a34c;
+  --title-color: #000000;
 }
 
 html {
@@ -47,7 +47,7 @@ html {
 }
 .link-mouse {
   font-weight: 700;
-  text-decoration: underline;
+  
 }
 .heading {
   padding: 15px;
