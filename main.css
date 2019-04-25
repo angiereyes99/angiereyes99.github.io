@@ -52,11 +52,12 @@ html {
 .heading {
   padding: 15px;
   color: var(--text-color);
-  align-items: center;
+  text-align: center;
 }
 
 .heading2 {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
+  text-algin: center;
 }
 
