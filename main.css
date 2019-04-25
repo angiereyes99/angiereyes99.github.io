@@ -6,7 +6,7 @@
 
 html {
   background-color: var(--background-color);
-  min-height: 80vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   text-align: center;
