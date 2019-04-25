@@ -52,6 +52,7 @@ html {
 .heading {
   padding: 15px;
   color: var(--text-color);
+  align-items: center;
 }
 
 .heading2 {
