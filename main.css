@@ -22,8 +22,8 @@ html {
   background-color: var(--background-color);
     top: -2px;
     left: 50%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin:-60px 0 0 -60px;
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
@@ -84,4 +84,14 @@ html {
     border-bottom-right-radius: 150px 150px;
     border-bottom-left-radius: 150px 150px;
 }
+.resume:hover{
+   position:relative;
+    top:-25px;
+    left:-35px;
+    width:120;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+  
 
