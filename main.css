@@ -61,14 +61,16 @@ html {
 }
 
 .myPic-image{
-    width: 250px;
-    height: 250px;
+    
     display: block;
     top: auto;
     left: auto;
     margin: auto;
     position: relative;
-    
-    border-radius: 250px;
+
+   border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
 
