@@ -85,9 +85,10 @@ html {
     border-bottom-left-radius: 150px 150px;
 }
 .mouse:hover{
-    width:80px;
-    height:80px;
-    
+    width:70px;
+    height:70px;
+    position: relative;
+    display: block;
 }
   
 
