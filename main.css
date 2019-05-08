@@ -72,4 +72,16 @@ html {
     border-bottom-right-radius: 150px 150px;
     border-bottom-left-radius: 150px 150px;
 }
+.ovt-image{
+    
+    display: block;
+    top: auto;
+    left: auto;
+    margin: auto;
+    position: relative;
+    border-top-left-radius: 150px 150px;
+    border-top-right-radius: 150px 150px;
+    border-bottom-right-radius: 150px 150px;
+    border-bottom-left-radius: 150px 150px;
+}
 
