@@ -67,9 +67,9 @@ html {
     left: auto;
     margin: auto;
     position: relative;
-    border-top-left-radius: 80% 80%;
-    border-top-right-radius: 80% 80%;
-    border-bottom-right-radius: 80% 80%;;
-    border-bottom-left-radius: 80% 80%;
+    border-top-left-radius: 105% 105%;
+    border-top-right-radius: 105% 105%;
+    border-bottom-right-radius: 105% 105%;
+    border-bottom-left-radius: 105% 105%;
 }
 
