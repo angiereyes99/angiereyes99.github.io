@@ -87,8 +87,6 @@ html {
 .mouse:hover{
     width:70px;
     height:70px;
-    position: relative;
-    display: block;
 }
   
 
