@@ -27,8 +27,7 @@ html {
 }
 .link {
   color: var(--text-color);
-  font-size: calc(40px;
-  padding: 10px;
+  font-size: calc(40px);
 }
 
 .link-mouse {
