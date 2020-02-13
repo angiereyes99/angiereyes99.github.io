@@ -27,7 +27,7 @@ html {
 }
 .link {
   color: var(--text-color);
-  font-size: 20px;
+  font-size: calc(40px;
   padding: 10px;
 }
 
