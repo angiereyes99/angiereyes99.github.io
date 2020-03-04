@@ -45,3 +45,12 @@ html {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
 }
+
+.box {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
