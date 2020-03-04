@@ -13,7 +13,7 @@ html {
   min-height: 95vh;
   font-size: calc(35px);
   color: var(--text-color);
-  font-family: 'Courier', monospace;
+  font-family: 'Consolas', monospace;
 }
 
 li {
