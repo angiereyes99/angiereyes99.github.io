@@ -6,13 +6,13 @@
 
 html {
   min-height: 95vh;
-  background-color: #c0d5f7;
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(40px);
+  font-size: calc(30px);
   font-family: "Courier";
   color: var(--text-color);
 }
