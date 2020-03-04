@@ -31,21 +31,17 @@ html {
   font-size: calc(40px);
 }
 
-.link-mouse {
-  font-weight: 700;
+.link-hover {
+  font-weight: bold;
   
 }
 .heading {
   padding: 15px;
+  font-size: 50px;
   color: var(--text-color);
 }
 
 .heading2 {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
-}
-
-.mouse:hover{
-    width:70px;
-    height:70px;
 }
