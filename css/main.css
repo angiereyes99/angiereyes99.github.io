@@ -1,19 +1,14 @@
 :root {
   --text-color: #000000;
-  --background-color: #c0d5f7;
+  --background-color: #5E5E7A;
   --title-color: #000000;
 }
 
 html {
   min-height: 95vh;
   background-color: var(--background-color);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   font-size: calc(30px);
-  font-family: "Courier";
+  font-family: 'Courier', monospace;
   color: var(--text-color);
 }
 
@@ -25,6 +20,7 @@ html {
   transform: translate(-50%, -50%);
   margin: 0 auto; 
 }
+
 .link {
   color: var(--text-color);
   font-size: calc(40px);
