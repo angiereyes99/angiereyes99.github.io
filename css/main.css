@@ -23,7 +23,7 @@ li {
 
 .link {
   color: var(--text-color);
-  font-size: calc(40px);
+  font-size: calc(30px);
   text-decoration: none;
 }
 
