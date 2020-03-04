@@ -7,12 +7,7 @@
 html {
   min-height: 95vh;
   background-color: var(--background-color);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(30px);
+  font-size: calc(35px);
   font-family: 'Courier', monospace;
   color: var(--text-color);
 }
