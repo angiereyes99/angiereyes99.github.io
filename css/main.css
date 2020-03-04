@@ -17,27 +17,23 @@ html {
   color: var(--text-color);
 }
 
-.tag {
-  position: fixed;
-  font-size: 15px;
-  left: 50%;
-  bottom: 5px;
-  transform: translate(-50%, -50%);
-  margin: 0 auto; 
+li {
+  font-size: calc(30px);
 }
 
 .link {
   color: var(--text-color);
   font-size: calc(40px);
+  text-decoration: none;
 }
 
 .link-hover {
   font-weight: bold;
-  
 }
+
 .heading {
   padding: 15px;
-  font-size: 50px;
+  font-size: calc(50px);
   color: var(--text-color);
 }
 
