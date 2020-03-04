@@ -1,15 +1,16 @@
 :root {
   --text-color: #000000;
-  --background-color: #c0d5f7;
+  --background-color: #c0d5f7; /* not in use for now */
   --title-color: #000000;
 }
 
 html {
   min-height: 95vh;
-  background-color: var(--background-color);
   font-size: calc(35px);
-  font-family: 'Courier', monospace;
   color: var(--text-color);
+  font-family: 'Courier', monospace;
+  background-image: url(pics/background-image.png);
+  background-size: cover;
 }
 
 li {
