@@ -1,6 +1,6 @@
 :root {
   --text-color: #000000;
-  --background-color: #c0d5f7;
+  --background-color: #d7f2c2;
   --title-color: #000000;
 }
 
@@ -12,7 +12,7 @@ html {
   background-color: var(--background-color);
 }
 
-li {
+li, h3 {
   font-size: calc(25px);
 }
 
