@@ -4,11 +4,6 @@
   --title-color: #000000;
 }
 
-/*body {
-  background-image: url('pics/background-image.png');
-  background-size: cover;
-}*/
-
 html {
   min-height: 95vh;
   font-size: calc(35px);
@@ -18,7 +13,7 @@ html {
 }
 
 li {
-  font-size: calc(20px);
+  font-size: calc(25px);
 }
 
 .link {
@@ -48,4 +43,14 @@ li {
   display: flex;
   justify-content: center; 
   align-items: center; 
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
 }
