@@ -16,6 +16,10 @@ li, h3 {
   font-size: calc(25px);
 }
 
+ul {
+  list-style-position: inside;
+}
+
 .link {
   color: var(--text-color);
   font-size: calc(30px);
