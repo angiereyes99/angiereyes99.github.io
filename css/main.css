@@ -4,6 +4,10 @@
   --title-color: #000000;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   min-height: 95vh;
   font-size: calc(35px);
