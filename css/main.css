@@ -1,6 +1,6 @@
 :root {
-  --text-color: #000000;
-  --background-color: #d7f2c2;
+  --text-color: #f5f6fa;
+  --background-color: #0028c9;
   --title-color: #000000;
 }
 
@@ -12,12 +12,13 @@ html {
   background-color: var(--background-color);
 }
 
-li, h3 {
+li {
   font-size: calc(25px);
+  margin-left: 10px;
 }
 
-ul {
-  list-style-position: inside;
+h3 {
+  font-size: calc(25px);
 }
 
 .link {
