@@ -10,6 +10,7 @@
 
 html {
   min-height: 95vh;
+  overflow: scroll;
   font-size: calc(35px);
   color: var(--text-color);
   font-family: 'Consolas', monospace;
@@ -31,7 +32,7 @@ li {
 }
 
 div {
-  overflow: auto;
+  overflow: scroll;
 }
 
 a {
