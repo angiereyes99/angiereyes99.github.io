@@ -23,6 +23,7 @@ hr {
 h2 {
   font-size: calc(32px);
   text-align: center;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -51,12 +52,6 @@ a {
   align-items: center; 
 }
 
-.link {
-  color: var(--text-color);
-  font-size: calc(30px);
-  text-decoration: none;
-}
-
 .heading {
   padding: 15px;
   font-size: calc(50px);
@@ -75,7 +70,7 @@ a {
   border: 5px solid coral;
   width: 400px;
   margin-left: 370px;
-  margin-top: 75px;
+  margin-top: 40px;
   color: var(--text-color);
   padding: 10px;
 }
@@ -98,6 +93,14 @@ a {
 .content {
   background-color: var(--background-color);
   padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 15px;
 }
 
 a:link {
@@ -132,4 +135,11 @@ h3:hover {
   .column {
     width: 100%;
   }
+}
+
+/*Not in use currently*/
+.link {
+  color: var(--text-color);
+  font-size: calc(30px);
+  text-decoration: none;
 }
