@@ -32,9 +32,9 @@ h3 {
 }
 
 h4 {
-  font-size: calc(24px);
+  font-size: calc(27px);
   margin-top: 10px;
-  margin-bottom: -20px;
+  margin-bottom: -60px;
   color: coral;
 }
 
@@ -43,7 +43,7 @@ h5 {
 }
 
 li {
-  font-size: calc(20px);
+  font-size: calc(17px);
   margin-left: 15px;
 }
 
