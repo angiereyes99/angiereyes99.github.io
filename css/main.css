@@ -29,6 +29,14 @@ a {
   color: red;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
 .box {
   height: 100vh;
   margin: auto;
