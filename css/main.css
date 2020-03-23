@@ -71,6 +71,7 @@ a {
   width: 400px;
   margin-left: 370px;
   margin-top: 40px;
+  margin-bottom: 25px;
   color: var(--text-color);
   padding: 10px;
 }
@@ -96,11 +97,10 @@ a {
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 a:link {
