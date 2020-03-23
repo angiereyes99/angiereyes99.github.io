@@ -16,13 +16,25 @@ html {
   background-color: var(--background-color);
 }
 
+h3, p {
+  font-size: calc(25px);
+}
+
 li {
   font-size: calc(25px);
   margin-left: 10px;
 }
 
-h3 {
-  font-size: calc(25px);
+a {
+  color: red;
+}
+
+.box {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .link {
@@ -45,14 +57,6 @@ h3 {
 .heading2 {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
-}
-
-.box {
-  height: 100vh;
-  margin: auto;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
 }
 
 .row {
