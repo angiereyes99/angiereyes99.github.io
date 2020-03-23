@@ -23,6 +23,7 @@ h3 {
 h2 {
   font-size: calc(25px);
   text-align: center;
+  text-decoration: underline;
 }
 
 li {
@@ -59,13 +60,10 @@ a {
   color: var(--text-color);
 }
 
-.heading2 {
-  font-size: calc(10px + 2vmin);
+.heading2, .heading3 {
+  font-size: calc(20px);
+  text-decoration: underline;
   color: var(--text-color);
-}
-
-.heading3 {
-  align-items: center;
 }
 
 .row {
@@ -92,6 +90,14 @@ a:link {
 }
 
 a:hover {
+  background-color: yellow;
+}
+
+h3:link {
+  text-decoration: none;
+}
+
+h3:hover {
   background-color: yellow;
 }
 
