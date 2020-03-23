@@ -1,6 +1,6 @@
 :root {
   --text-color: #f5f6fa;
-  --background-color: #0a1e2f;
+  --background-color: #364680;
   --title-color: #000000;
 }
 
@@ -67,9 +67,9 @@ a {
 .heading3 {
   font-size: calc(25px);
   text-align: center;
-  border: 5px solid coral;
-  width: 400px;
-  margin-left: 370px;
+  border: 3px solid coral;
+  width: 50%;
+  margin: auto;
   margin-top: 40px;
   margin-bottom: 25px;
   color: var(--text-color);
