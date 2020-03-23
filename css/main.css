@@ -16,14 +16,14 @@ html {
   background-color: var(--background-color);
 }
 
-h3 {
-  font-size: calc(20px);
-}
-
 h2 {
   font-size: calc(25px);
   text-align: center;
   text-decoration: underline;
+}
+
+h3 {
+  font-size: calc(20px);
 }
 
 li {
