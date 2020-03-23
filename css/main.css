@@ -16,12 +16,12 @@ html {
   background-color: var(--background-color);
 }
 
-h3, p {
-  font-size: calc(25px);
+h3 {
+  font-size: calc(20px);
 }
 
 h2 {
-  font-size: calc(35px);
+  font-size: calc(25px);
   text-align: center;
 }
 
@@ -62,6 +62,10 @@ a {
 .heading2 {
   font-size: calc(10px + 2vmin);
   color: var(--text-color);
+}
+
+.heading3 {
+  align-items: center;
 }
 
 .row {
