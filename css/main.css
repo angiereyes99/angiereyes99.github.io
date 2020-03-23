@@ -61,13 +61,24 @@ a {
   color: var(--text-color);
 }
 
-.heading2, .heading3 {
+.heading2 {
   font-size: calc(25px);
+  color: var(--text-color);
+}
+
+.heading3 {
+  font-size: calc(25px);
+  text-align: center;
+  border: 5px solid;
+  width: 200px;
+  margin-left: 475px;
+  margin-top: 100px;
   color: var(--text-color);
 }
 
 .row {
   margin: 8px - 16px;
+  border: 10px solid red;
 }
 
 .row,
