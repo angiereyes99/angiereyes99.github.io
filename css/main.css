@@ -1,6 +1,6 @@
 :root {
   --text-color: #f5f6fa;
-  --background-color: #0028c9;
+  --background-color: #0a1e2f;
   --title-color: #000000;
 }
 
@@ -31,7 +31,7 @@ li {
 }
 
 div {
-  overflow-y: auto;
+  overflow: auto;
 }
 
 a {
