@@ -20,6 +20,11 @@ h3, p {
   font-size: calc(25px);
 }
 
+h2 {
+  font-size: calc(30px);
+  text-align: center;
+}
+
 li {
   font-size: calc(25px);
   margin-left: 10px;
@@ -27,14 +32,6 @@ li {
 
 a {
   color: red;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: yellow;
 }
 
 .box {
@@ -51,14 +48,10 @@ a:hover {
   text-decoration: none;
 }
 
-/*Needs fixing*/
-.link-hover {
-  font-weight: bold;
-}
-
 .heading {
   padding: 15px;
   font-size: calc(50px);
+  text-align: center;
   color: var(--text-color);
 }
 
@@ -76,12 +69,6 @@ a:hover {
   padding: 5px;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .column {
   float: left;
   width: 25%;
@@ -90,6 +77,20 @@ a:hover {
 .content {
   background-color: var(--background-color);
   padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 900px) {
