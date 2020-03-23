@@ -30,6 +30,10 @@ li {
   margin-left: 10px;
 }
 
+div {
+  overflow-y: auto;
+}
+
 a {
   color: red;
 }
