@@ -17,9 +17,8 @@ html {
 }
 
 h2 {
-  font-size: calc(25px);
+  font-size: calc(32px);
   text-align: center;
-  text-decoration: underline;
 }
 
 h3 {
@@ -69,16 +68,17 @@ a {
 .heading3 {
   font-size: calc(25px);
   text-align: center;
-  border: 5px solid;
-  width: 200px;
-  margin-left: 475px;
-  margin-top: 100px;
+  border: 5px solid coral;
+  width: 400px;
+  margin-left: 370px;
+  margin-top: 75px;
   color: var(--text-color);
+  padding: 10px;
 }
 
 .row {
   margin: 8px - 16px;
-  border: 10px solid red;
+  border: 4px solid coral;
 }
 
 .row,
