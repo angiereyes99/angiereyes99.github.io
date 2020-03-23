@@ -9,8 +9,7 @@
 }
 
 html {
-  /*min-height: 95vh;*/
-  height: 100%;
+  min-height: 95vh;
   font-size: calc(35px);
   color: var(--text-color);
   font-family: 'Consolas', monospace;
@@ -40,7 +39,7 @@ a {
 }
 
 .box {
-  height: 100vh;
+  height: 100%;
   margin: auto;
   display: flex;
   justify-content: center; 
