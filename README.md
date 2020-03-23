@@ -1,2 +1,1 @@
-# Personal Website containing socials/resume. 
-# Link: https://angiereyes99.github.io/
+### Checkout this website at: https://angiereyes99.github.io/
