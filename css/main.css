@@ -22,12 +22,16 @@ hr {
 
 h2 {
   font-size: calc(32px);
-  text-align: center;
+  /*text-align: center;*/
   margin-bottom: 0px;
 }
 
 h3 {
   font-size: calc(20px);
+}
+
+h4 {
+  font-size: calc(15px);
 }
 
 li {
@@ -40,7 +44,7 @@ div {
 }
 
 a {
-  color: red;
+  color: coral;
   font-size: calc(20px)
 }
 
@@ -67,13 +71,28 @@ a {
 .heading3 {
   font-size: calc(25px);
   text-align: center;
-  border: 3px solid coral;
+  border: 1px solid black;
   width: 50%;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 25px;
   color: var(--text-color);
   padding: 10px;
+  box-shadow: 0 0 9px;
+  background-color: #3d4073;
+}
+
+.exp-box {
+  font-size: calc(25px);
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+  padding: 10px;
+  box-shadow: 0 0 8px;
+  background-color: #3d4073;
+
 }
 
 .row {
