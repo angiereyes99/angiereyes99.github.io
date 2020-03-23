@@ -37,6 +37,7 @@ div {
 
 a {
   color: red;
+  font-size: calc(20px)
 }
 
 .box {
@@ -61,8 +62,7 @@ a {
 }
 
 .heading2, .heading3 {
-  font-size: calc(20px);
-  text-decoration: underline;
+  font-size: calc(25px);
   color: var(--text-color);
 }
 
