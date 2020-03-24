@@ -44,6 +44,10 @@ li {
   margin-left: 15px;
 }
 
+p {
+  font-size: calc(16px);
+}
+
 div {
   overflow-y: scroll;
 }
@@ -119,17 +123,21 @@ img {
 }
 
 .project-block {
-  margin: 45px;
+  font-size: calc(25px);
   border: 1px solid black;
-  box-shadow: 0 0 9px;
+  margin: 45px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #f5f6fa;
+  padding: 27px;
+  box-shadow: 0 0 8px;
   background-color: #3d4073;
-  padding: 3px;
 }
 
-.project-block,
+/*.project-block,
 .project-block < .column {
   padding: 5px;
-}
+}*/
 
 .column {
   float: left;
