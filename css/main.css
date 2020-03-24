@@ -51,6 +51,10 @@ a {
   font-size: calc(20px)
 }
 
+img {
+  float: right;
+}
+
 .box {
   height: 100%;
   margin: auto;
