@@ -154,7 +154,7 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: auto;
+  margin: initial;
   width: 30%;
   margin-bottom: 30px;
 }
