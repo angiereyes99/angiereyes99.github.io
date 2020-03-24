@@ -58,7 +58,8 @@ a {
 
 .box {
   height: 100%;
-  margin: auto;
+  margin: 80px;
+  margin-top: 10px;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -72,7 +73,7 @@ a {
 }
 
 .heading2 {
-  font-size: calc(25px);
+  font-size: calc(20px);
   color: var(--text-color);
   /*text-align: center;*/
   border: 1px solid black;
