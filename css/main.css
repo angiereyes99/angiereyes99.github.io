@@ -1,9 +1,3 @@
-:root {
-  --text-color: #f5f6fa;
-  --background-color: #364680;
-  --title-color: #000000;
-}
-
 * {
   box-sizing: border-box;
   margin-bottom: 0;
@@ -12,9 +6,9 @@
 html {
   min-height: 95vh;
   font-size: calc(35px);
-  color: var(--text-color);
+  color: #f5f6fa;
   font-family: 'Consolas', monospace;
-  background-color: var(--background-color);
+  background-color: #364680;
 }
 
 hr {
@@ -69,12 +63,12 @@ a {
   padding: 15px;
   font-size: calc(50px);
   text-align: center;
-  color: var(--text-color);
+  color: #f5f6fa;
 }
 
 .heading2 {
   font-size: calc(20px);
-  color: var(--text-color);
+  color: #f5f6fa;
   /*text-align: center;*/
   border: 1px solid black;
   margin: auto;
@@ -94,7 +88,7 @@ a {
   margin: auto;
   margin-top: 40px;
   margin-bottom: 25px;
-  color: var(--text-color);
+  color: #f5f6fa;
   padding: 10px;
   box-shadow: 0 0 9px;
   background-color: #3d4073;
@@ -106,7 +100,7 @@ a {
   margin: 45px;
   margin-top: 30px;
   margin-bottom: 10px;
-  color: var(--text-color);
+  color: #f5f6fa;
   padding: 27px;
   box-shadow: 0 0 8px;
   background-color: #3d4073;
@@ -179,7 +173,7 @@ h3:hover {
 
 /*Not in use currently*/
 .link {
-  color: var(--text-color);
+  color: #f5f6fa;
   font-size: calc(30px);
   text-decoration: none;
 }
