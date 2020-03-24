@@ -1,3 +1,5 @@
+/******* Tags *******/
+
 * {
   box-sizing: border-box;
   margin-bottom: 0;
@@ -54,6 +56,8 @@ a {
 img {
   float: right;
 }
+
+/******* Classes *******/
 
 .box {
   height: 100%;
@@ -129,7 +133,7 @@ img {
 
 .column {
   float: left;
-  width: 25%;
+  width: 100%;
 }
 
 .description {
@@ -150,6 +154,8 @@ img {
   font-size: 12px;
 }
 
+/*******Effects*******/
+
 a:link {
   text-decoration: none;
 }
@@ -166,11 +172,11 @@ h3:hover {
   background-color: yellow;
 }
 
-.row:after {
+/*.row:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 @media screen and (max-width: 900px) {
   .column {
@@ -184,7 +190,8 @@ h3:hover {
   }
 }
 
-/*Not in use currently*/
+/******* Not in use currently *******/
+
 .link {
   color: #f5f6fa;
   font-size: calc(30px);
