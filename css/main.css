@@ -128,18 +128,15 @@ a {
   width: 25%;
 }
 
+.description {
+  float: left;
+  width: 100%;
+  margin-left: 25%;
+}
+
 .content {
   background-color: #3d4073;
   padding: 10px;
-}
-
-.description {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  background-color: #3d4073;
-
 }
 
 .footer {
