@@ -133,6 +133,15 @@ a {
   padding: 10px;
 }
 
+.description {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-color: #3d4073;
+
+}
+
 .footer {
   left: 0;
   bottom: 0;
