@@ -118,7 +118,7 @@ img {
 
 }
 
-.row {
+.project-block {
   margin: 45px;
   border: 1px solid black;
   box-shadow: 0 0 9px;
@@ -126,8 +126,8 @@ img {
   padding: 3px;
 }
 
-.row,
-.row < .column {
+.project-block,
+.project-block < .column {
   padding: 5px;
 }
 
@@ -172,7 +172,7 @@ h3:hover {
   background-color: yellow;
 }
 
-/*.row:after {
+/*.project-block:after {
   content: "";
   display: table;
   clear: both;
