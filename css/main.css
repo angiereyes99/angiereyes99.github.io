@@ -74,12 +74,15 @@ a {
 .heading2 {
   font-size: calc(25px);
   color: var(--text-color);
-  text-align: center;
+  /*text-align: center;*/
   border: 1px solid black;
-  margin: 45px;
-  padding: 10px;
+  margin: auto;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
   box-shadow: 0 0 9px;
   background-color:  #3d4073;
+  width: 60%;
 }
 
 .heading3 {
