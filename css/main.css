@@ -157,7 +157,7 @@ img {
   margin-top: 0px;
   width: 100%;
   top: 0;
-  right: 61px;
+  right: 0;
   position: fixed;
   background-color: #364680;
 }
@@ -170,7 +170,7 @@ img {
 
 .quick-links::before {
     margin-right: .25em;
-    margin-left: 1025px;
+    margin-left: 930px;
 }
 
 .quick-links::after {
