@@ -53,7 +53,8 @@ div {
 
 a {
   color: coral;
-  font-size: calc(20px)
+  font-size: calc(20px);
+  padding: 8px;
 }
 
 img {
