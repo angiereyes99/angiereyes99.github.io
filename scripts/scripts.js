@@ -1,12 +1,19 @@
 /*** Javascript for we functionalities ***/
 
-window.onscroll = function() { myFunction() };
+document.addEventListener('DOMContentLoaded', function() {
+  
+  window.addEventListener('scroll', myFunctionForSticky);
 
-var navbar = document.getElementById("separator");
-var sticky = navbar.offsetTop;
+  var navbar = document.getElementById("separator");
 
-function myFunction() {
-	if (window.pageYOffset >= sticky) {
-		navbar.classList.add("sticky");
-	}
-}
+  var sticky = navbar.offsetTop;
+
+  function myFunctionForSticky() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+
+})
