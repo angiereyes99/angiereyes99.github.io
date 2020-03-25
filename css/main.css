@@ -155,8 +155,8 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  /*margin-top: 10px;*/
-  width: 15%;
+  margin-top: 0px;
+  width: 1025px;
   top: 0;
   right: 61px;
   position: fixed;
@@ -170,7 +170,7 @@ img {
 
 .quick-links::before {
     margin-right: .25em;
-    margin-left: 1025px;
+    margin-left: 700px;
 }
 
 .quick-links::after {
