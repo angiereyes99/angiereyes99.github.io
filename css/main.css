@@ -78,7 +78,7 @@ img {
   padding: 15px;
   font-size: calc(50px);
   text-align: center;
-  /*margin-bottom: 50px;*/
+  margin-top: 50px;
   color: #f5f6fa;
 }
 
@@ -155,9 +155,11 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: initial;
-  width: 30%;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 15%;
+  top: 0;
+  right: 61px;
+  position: absolute;
 }
 
 .quick-links::before, .quick-links::after {
@@ -173,33 +175,6 @@ img {
 .quick-links::after {
     margin-left: .25em;
 }
-
-.nav-links {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: initial;
-  width: 30%;
-  top: 0;
-  right: 10px;
-  position: absolute;
-  margin-bottom: 30px;
-}
-
-.nav-links::before, .nav-links::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid coral;
-}
-
-.nav-links::before {
-    margin-right: .25em;
-}
-
-.nav-links::after {
-    margin-left: .25em;
-}
-
 
 .footer {
   left: 0;
@@ -236,12 +211,4 @@ h3:hover {
   .column {
     width: 100%;
   }
-}
-
-/******* Not in use currently *******/
-
-.link {
-  color: #f5f6fa;
-  font-size: calc(30px);
-  text-decoration: none;
 }
