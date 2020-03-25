@@ -1,8 +1,6 @@
 /*** Javascript for we functionalities ***/
 
-window.onscroll = function() {
-	myFunction()
-};
+window.onscroll = function() { myFunction() };
 
 var navbar = document.getElementsByClassName("separator");
 var sticky = navbar.offsetTop;
