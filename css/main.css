@@ -119,7 +119,6 @@ img {
   padding: 27px;
   box-shadow: 0 0 8px;
   background-color: #3d4073;
-
 }
 
 .project-block {
@@ -156,7 +155,7 @@ img {
   align-items: center;
   text-align: center;
   margin-top: 0px;
-  width: 1025px;
+  width: 100%;
   top: 0;
   right: 61px;
   position: fixed;
@@ -171,7 +170,7 @@ img {
 
 .quick-links::before {
     margin-right: .25em;
-    margin-left: 700px;
+    margin-left: 1025px;
 }
 
 .quick-links::after {
