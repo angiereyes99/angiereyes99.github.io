@@ -160,6 +160,7 @@ img {
   top: 0;
   right: 61px;
   position: fixed;
+  background-color: #3d4073;
 }
 
 .quick-links::before, .quick-links::after {
