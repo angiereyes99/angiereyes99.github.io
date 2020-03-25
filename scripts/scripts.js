@@ -2,7 +2,7 @@
 
 window.onscroll = function() { myFunction() };
 
-var navbar = document.getElementByID("separator");
+var navbar = document.getElementById("separator");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
