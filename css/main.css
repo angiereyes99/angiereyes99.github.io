@@ -155,11 +155,11 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   width: 15%;
   top: 0;
   right: 61px;
-  position: absolute;
+  position: fixed;
 }
 
 .quick-links::before, .quick-links::after {
@@ -170,10 +170,12 @@ img {
 
 .quick-links::before {
     margin-right: .25em;
+    margin-left: 1025px;
 }
 
 .quick-links::after {
     margin-left: .25em;
+    margin-right: 82px;
 }
 
 .footer {
@@ -181,6 +183,7 @@ img {
   bottom: 0;
   text-align: center;
   font-size: 12px;
+  margin-top: 10px;
 }
 
 /*******Effects*******/
