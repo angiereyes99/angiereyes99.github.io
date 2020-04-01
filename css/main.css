@@ -13,6 +13,12 @@ html {
   background-color: #364680;
 }
 
+body {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 hr {
   border: 1px solid coral;
 }
@@ -202,6 +208,15 @@ h3:link {
 
 h3:hover {
   background-color: yellow;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 900px) {
