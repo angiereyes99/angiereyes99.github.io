@@ -6,6 +6,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   min-height: 95vh;
   font-size: calc(35px);
   color: #f5f6fa;
@@ -129,7 +130,7 @@ img {
   font-size: calc(25px);
   border: 1px solid black;
   margin: auto;
-  width: 85%;
+  width: 84%;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #f5f6fa;
@@ -179,8 +180,6 @@ img {
 }
 
 .footer {
-  left: 0;
-  bottom: 0;
   text-align: center;
   font-size: 12px;
   margin-top: 10px;
