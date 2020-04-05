@@ -126,7 +126,7 @@ img {
   color: #f5f6fa;
   padding: 20px;
   box-shadow: 0 0 8px;
-  width: 90%;
+  width: 87%;
   background-color: #3d4073;
 }
 
@@ -163,12 +163,6 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 0px;
-  width: 100%;
-  top: 0;
-  right: 0;
-  position: fixed;
-  background-color: #364680;
 }
 
 .quick-links::before, .quick-links::after {
