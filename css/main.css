@@ -13,12 +13,6 @@ html {
   background-color: #364680;
 }
 
-body {
-  animation: fadeInAnimation ease 7s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
 hr {
   border: 1px solid coral;
   width: 95%;
@@ -69,6 +63,7 @@ img {
 }
 
 /******* Classes *******/
+
 .main {
   width: 1200px;
 }
