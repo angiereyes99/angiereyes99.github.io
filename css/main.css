@@ -89,14 +89,24 @@ img {
 .intro-box {
   font-size: calc(20px);
   color: #f5f6fa;
-  border: 1px solid black;
   margin: auto;
   padding: 15px;
-  margin-top: 15px;
   margin-bottom: 25px;
-  box-shadow: 0 0 9px;
-  background-color:  #3d4073;
   width: 80%;
+}
+
+.connect-box {
+  font-size: calc(25px);
+  text-align: center;
+  border: 1px solid black;
+  width: 30%;
+  line-height: 30px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  color: #f5f6fa;
+  box-shadow: 0 0 9px;
+  background-color: #3d4073;
 }
 
 .contact-box, #contact-box {
