@@ -86,7 +86,7 @@ img {
   padding: 15px;
   font-size: calc(50px);
   text-align: center;
-  margin-top: 50px;
+  margin-top: auto;
   color: #f5f6fa;
 }
 
@@ -173,12 +173,12 @@ img {
 
 .quick-links::before {
     margin-right: .25em;
-    margin-left: 930px;
+    margin-left: 400px;
 }
 
 .quick-links::after {
     margin-left: .25em;
-    margin-right: 82px;
+    margin-right: 400px;
 }
 
 .footer {
