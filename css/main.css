@@ -159,36 +159,6 @@ img {
   padding: 10px;
 }
 
-.quick-links {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.quick-links::before, .quick-links::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid coral;
-}
-
-.quick-links::before {
-    margin-right: .25em;
-    margin-left: 400px;
-}
-
-.quick-links::after {
-    margin-left: .25em;
-    margin-right: 400px;
-}
-
-.footer {
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  font-size: 12px;
-  margin-top: 10px;
-}
-
 /*******Effects*******/
 
 a:link {
@@ -273,3 +243,35 @@ h3:hover {
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
 }
+
+/***** NOT IN USE CURRENTLY 
+.quick-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.quick-links::before, .quick-links::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid coral;
+}
+
+.quick-links::before {
+    margin-right: .25em;
+    margin-left: 400px;
+}
+
+.quick-links::after {
+    margin-left: .25em;
+    margin-right: 400px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+*******/
