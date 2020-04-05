@@ -1,5 +1,6 @@
 /******* Tags *******/
-
+@media (max-width: 767px) {
+  /* CSS goes here */
 * {
   box-sizing: border-box;
   margin-bottom: 0;
@@ -72,8 +73,6 @@ img {
 .box {
   height: 100%;
   margin: auto;
-  margin-left: 90px;
-  margin-right: 90px;
   margin-top: 10px;
   display: flex;
   justify-content: center; 
@@ -275,4 +274,5 @@ h3:hover {
 @keyframes animatebottom { 
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
+}
 }
