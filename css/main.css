@@ -176,6 +176,17 @@ img {
   text-align: center;
 }
 
+.link-icons {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #364680;
+  margin-top: 10%;
+  align-items: center;
+  text-align: center;
+}
+
 .quick-links::before, .quick-links::after {
     content: '';
     flex: 1;
