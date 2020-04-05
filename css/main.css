@@ -158,6 +158,7 @@ img {
   display: flex;
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
   background-color: #364680;
   align-items: center;
   text-align: center;
