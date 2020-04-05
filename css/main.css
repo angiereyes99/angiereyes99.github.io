@@ -103,7 +103,7 @@ img {
   width: 80%;
 }
 
-.heading3 {
+.contact-box, #contact-box {
   font-size: calc(25px);
   text-align: center;
   border: 1px solid black;
