@@ -68,7 +68,7 @@ img {
   width: 1200px;
 }
 
-.box {
+.box, #box {
   height: 100%;
   margin: auto;
   margin-top: 10px;
@@ -248,7 +248,6 @@ h3:hover {
   100% { transform: rotate(360deg); }
 }
 
-/* Add animation to "page content" */
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;

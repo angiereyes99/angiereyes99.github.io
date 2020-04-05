@@ -6,5 +6,5 @@ function myFunction() {
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementsByClassName("box").style.display = "block";
+  document.getElementById("box").style.display = "block";
 }
