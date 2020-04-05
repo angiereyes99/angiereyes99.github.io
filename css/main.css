@@ -82,7 +82,7 @@ img {
   padding: 15px;
   font-size: calc(50px);
   text-align: center;
-  margin-top: auto;
+  margin-top: 130px;
   color: #f5f6fa;
 }
 
@@ -91,7 +91,8 @@ img {
   color: #f5f6fa;
   margin: auto;
   padding: 15px;
-  margin-bottom: 25px;
+  margin-top: 2%;
+  margin-bottom: 37%;
   width: 80%;
 }
 
@@ -123,7 +124,7 @@ img {
   background-color: #3d4073;
 }
 
-.exp-box {
+.exp-box, #exp-box {
   font-size: calc(25px);
   border: 1px solid black;
   margin: auto;
@@ -136,7 +137,7 @@ img {
   background-color: #3d4073;
 }
 
-.project-block {
+.project-block, #project-block {
   font-size: calc(25px);
   border: 1px solid black;
   margin: auto;
