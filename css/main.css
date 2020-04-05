@@ -21,6 +21,7 @@ body {
 
 hr {
   border: 1px solid coral;
+  width: 95%;
 }
 
 h2 {
@@ -35,13 +36,13 @@ h3 {
 
 h4 {
   font-size: calc(27px);
-  margin-top: 0px;
-  margin-bottom: -60px;
+  margin-top: auto;
   color: coral;
 }
 
 h5 {
   font-size: calc(19px);
+  margin-top: 10px;
 }
 
 li {
@@ -68,6 +69,9 @@ img {
 }
 
 /******* Classes *******/
+.main {
+  width: 1200px;
+}
 
 .box {
   height: 100%;
@@ -96,7 +100,7 @@ img {
   margin-bottom: 25px;
   box-shadow: 0 0 9px;
   background-color:  #3d4073;
-  width: 60%;
+  width: 80%;
 }
 
 .heading3 {
@@ -116,12 +120,13 @@ img {
 .exp-box {
   font-size: calc(25px);
   border: 1px solid black;
-  margin: 45px;
+  margin: auto;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   color: #f5f6fa;
-  padding: 27px;
+  padding: 20px;
   box-shadow: 0 0 8px;
+  width: 90%;
   background-color: #3d4073;
 }
 
@@ -129,9 +134,9 @@ img {
   font-size: calc(25px);
   border: 1px solid black;
   margin: auto;
-  width: 75%;
+  width: 85%;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #f5f6fa;
   padding: 27px;
   box-shadow: 0 0 8px;
