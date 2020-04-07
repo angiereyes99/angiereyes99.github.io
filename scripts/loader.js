@@ -1,4 +1,3 @@
-AOS.init();
 var myVar;
 
 function myFunction() {
