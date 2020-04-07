@@ -1,3 +1,4 @@
+AOS.init();
 var myVar;
 
 function myFunction() {
@@ -8,7 +9,3 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("box").style.display = "flex";
 }
-
-$(function() {
-  AOS.init();
-});
