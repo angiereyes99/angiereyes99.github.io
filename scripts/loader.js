@@ -9,6 +9,6 @@ function showPage() {
   document.getElementById("box").style.display = "flex";
 }
 
-AOS.init ({
-  duration: 1200,
-})
+$(function() {
+  AOS.init();
+});
