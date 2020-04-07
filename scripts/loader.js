@@ -8,3 +8,7 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("box").style.display = "flex";
 }
+
+AOS.init ({
+  duration: 1200,
+})
