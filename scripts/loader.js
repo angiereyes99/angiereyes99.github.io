@@ -9,8 +9,8 @@ function showPage() {
   document.getElementById("box").style.display = "flex";
 }
 
-(document).ready(function() {
-  
+$(document).ready(function() {
+
   $(window).scroll( function(){
       $('.exp-box').each( function(i){
           
