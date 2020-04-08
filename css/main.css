@@ -151,6 +151,7 @@ img {
   padding: 27px;
   box-shadow: 0 0 8px;
   background-color: #3d4073;
+  opacity: 0;
 }
 
 .column {
