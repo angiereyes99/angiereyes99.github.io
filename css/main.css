@@ -137,6 +137,7 @@ img {
   box-shadow: 0 0 8px;
   width: 87%;
   background-color: #3d4073;
+  opacity: 0;
 }
 
 .project-block, #project-block {
