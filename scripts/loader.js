@@ -17,7 +17,7 @@ $(window).on("load",function() {
       var objectBottom = $(this).offset().top + $(this).outerHeight();
       
       if (objectBottom < windowBottom) { 
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+        if ($(this).css("opacity")==0.5) {$(this).fadeTo(500,1);}
       } else { 
         if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
       }
@@ -34,7 +34,7 @@ $(window).on("load",function() {
       
       
       if (objectBottom < windowBottom) { 
-        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+        if ($(this).css("opacity")==0.5) {$(this).fadeTo(500,1);}
       } else { 
         if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
       }
