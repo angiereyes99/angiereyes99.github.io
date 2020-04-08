@@ -137,7 +137,7 @@ img {
   box-shadow: 0 0 8px;
   width: 87%;
   background-color: #3d4073;
-  opacity: 0;
+  opacity: 1;
 }
 
 .project-block, #project-block {
@@ -151,7 +151,7 @@ img {
   padding: 27px;
   box-shadow: 0 0 8px;
   background-color: #3d4073;
-  opacity: 0;
+  opacity: 1;
 }
 
 .column {
