@@ -51,9 +51,9 @@ p {
   font-size: calc(16px);
 }
 
-div {
+/* div {
   overflow-y: scroll;
-}
+} */
 
 a {
   color: coral;
@@ -124,6 +124,7 @@ img {
   padding: 10px;
   box-shadow: 0 0 9px;
   background-color: #3d4073;
+  opacity: 1;
 }
 
 .exp-box, #exp-box {
@@ -152,6 +153,7 @@ img {
   box-shadow: 0 0 8px;
   background-color: #3d4073;
   opacity: 1;
+  overflow-y: hidden;
 }
 
 .column {
@@ -173,7 +175,6 @@ img {
 .quick-links {
   display: flex;
   position: -webkit-sticky;
-  position: sticky;
   top: 0;
   background-color: #364680;
   align-items: center;
@@ -197,7 +198,6 @@ img {
 .link-icons {
   display: flex;
   position: -webkit-sticky;
-  position: sticky;
   top: 0;
   background-color: #364680;
   margin-top: 7%;
