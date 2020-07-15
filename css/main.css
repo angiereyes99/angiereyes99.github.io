@@ -1,7 +1,7 @@
 :root {
 	--font: Ubuntu;
 	--text_decorations: none;
-	--background-color: #e6e0d1;
+	--background-color: white;
 	--a-colors: color:hsla(0,100%,50%,0.5);
 	--text-colors: black;
 }
@@ -45,9 +45,21 @@ a {
 	position: absolute;
 	left: 0;
 	right: 0;
+	margin-top: 80px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--background-color);
+	font-family: var(--font);
+	color: var(--text-colors);
+	text-align: center;
 }
 
 .linkedin:hover {
