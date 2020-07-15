@@ -1,15 +1,16 @@
 :root {
 	--font: Ubuntu;
 	--text_decorations: none;
-	--background-color: white;
+	--background-color: rgb(51, 50, 50);
 	--a-colors: color:hsla(0,100%,50%,0.5);
-	--text-colors: black;
+	--text-colors: white;
 }
 
 body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
+	background: var(--background-color);
 }
 
 h1 {
@@ -34,7 +35,7 @@ li {
 
 a {
 	text-decoration: var(--text_decorations);
-	color: rgb(144, 45, 153);
+	color: rgb(46, 133, 92);
 	font-family: var(--font);
 	padding: 8px;
 }
@@ -52,11 +53,13 @@ a {
 }
 
 .footer {
-	position: fixed;
+	position: absolute;
 	left: 0;
+	right:0;
 	bottom: 0;
-	width: 100%;
-	background-color: var(--background-color);
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: var(--font);
 	color: var(--text-colors);
 	text-align: center;
@@ -115,5 +118,5 @@ a {
 
 #particles-js {
 	height: 100%;
-	background: var(--background-color);
+	/* background: var(--background-color); */
 }

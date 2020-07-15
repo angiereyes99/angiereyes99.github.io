@@ -5,6 +5,6 @@ I have older versions of my website that I will dig around and link below to see
 
 ### Versions
 ```
-• [v1]:[https://angiereyes99.github.io/archive/v1]
+• [v1:[https://angiereyes99.github.io/archive/v1]
 • [current]:[https://angiereyes99.github.io/]
 ```
