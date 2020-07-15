@@ -1,12 +1,15 @@
 :root {
 	--font: Ubuntu;
 	--text_decorations: none;
-	--background-color: #faf5e8;
+	--background-color: #e6e0d1;
 	--a-colors: color:hsla(0,100%,50%,0.5);
+	--text-colors: black;
 }
 
 body {
-	background-color: var(--background-color);
+	margin: 0;
+	padding: 0;
+	height: 100vh;
 }
 
 h1 {
@@ -14,6 +17,7 @@ h1 {
 	margin-top: 15%;
 	font-family: var(--font);
 	margin-block-end: initial;
+	color: var(--text-colors);
 }
 
 ul {
@@ -24,6 +28,7 @@ ul {
 li {
 	font-family: var(--font);
 	font-size: 19px;
+	color: var(--text-colors);
 
 }
 
@@ -35,11 +40,14 @@ a {
 }
 
 .container {
-	/* margin: auto; */
 	margin: auto;
 	width: 35%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 5px;
-	/* border: 5px solid black; */
 }
 
 .linkedin:hover {
@@ -77,18 +85,23 @@ a {
 	align-items: center;
 	text-align: center;
 	font-size: 19px;
-  }
+}
   
-  .link-icons::before, .link-icons::after {
-	  content: '';
-	  flex: 1;
-	  border-bottom: 1px solid black;
-  }
-  
-  .link-icons::before {
-	  margin-right: .25em;
-  }
-  
-  .link-icons::after {
-	  margin-left: .25em;
-  }
+.link-icons::before, .link-icons::after {
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid black;
+}
+
+.link-icons::before {
+	margin-right: .25em;
+}
+
+.link-icons::after {
+	margin-left: .25em;
+}
+
+#particles-js {
+	height: 100%;
+	background: var(--background-color);
+}
