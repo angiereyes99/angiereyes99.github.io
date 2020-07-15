@@ -1,7 +1,8 @@
 :root {
 	--font: Ubuntu;
 	--text_decorations: none;
-	--background-color: #c4bfb1
+	--background-color: #faf5e8;
+	--a-colors: color:hsla(0,100%,50%,0.5);
 }
 
 body {
@@ -12,6 +13,7 @@ h1 {
 	text-align: center;
 	margin-top: 15%;
 	font-family: var(--font);
+	margin-block-end: initial;
 }
 
 ul {
@@ -27,16 +29,9 @@ li {
 
 a {
 	text-decoration: var(--text_decorations);
-}
-
-a:hover {
-	background-color: #c295bc;
-	text-decoration: var(--text_decorations);
-}
-
-p {
-	font-size: 15px;
+	color: rgb(144, 45, 153);
 	font-family: var(--font);
+	padding: 8px;
 }
 
 .container {
@@ -46,3 +41,54 @@ p {
 	padding: 5px;
 	/* border: 5px solid black; */
 }
+
+.linkedin:hover {
+	background-color: #99cc9c;
+}
+
+.git-cont:hover {
+	background-color: #c9cfc9;
+}
+
+.at-sign:hover {
+	background-color: #ecc762;
+}
+
+.sfsu:hover {
+	background-color: #d3a3da;
+}
+
+.ovt:hover {
+	background-color: #e26c86;
+}
+
+.twitter:hover {
+	background-color: #68cbd8;
+}
+
+.stanford:hover {
+	background-color: #f3f591;
+}
+
+.link-icons {
+	display: flex;
+	position: -webkit-sticky;
+	top: 0;
+	align-items: center;
+	text-align: center;
+	font-size: 19px;
+  }
+  
+  .link-icons::before, .link-icons::after {
+	  content: '';
+	  flex: 1;
+	  border-bottom: 1px solid black;
+  }
+  
+  .link-icons::before {
+	  margin-right: .25em;
+  }
+  
+  .link-icons::after {
+	  margin-left: .25em;
+  }
