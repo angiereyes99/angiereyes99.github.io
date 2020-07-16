@@ -10,7 +10,7 @@ function colorChange() {
     var h1 = document.getElementsByTagName("h1");
 
     var footer = document.getElementsByClassName("footer");
-    
+
     document.getElementById("default").addEventListener("click", function(){
         document.body.style.background = "rgb(50,50,50)";
         var text_color_const = "#ffffff";
@@ -23,12 +23,13 @@ function colorChange() {
             h1[i].style.color = text_color_const; 
         }
 
-        for (var i = 0; i < texts.length; i++) {
+        for (var i = 0; i < footer.length; i++) {
             footer[i].style.color = text_color_const;
         }
 
         for (var i = 0; i < links.length; i++) {
-            links[i].style.color = "rgb(238, 151, 192)";
+            console.log('yeeyeye');
+            links[i].style.color = "#ee97c0";
         }
     });
 
