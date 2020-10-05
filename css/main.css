@@ -1,0 +1,21 @@
+:root {
+    --font: Ubuntu;
+    --background-color: rgb(59, 95, 110);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+h1 {
+    font-family: var(--font);
+    text-align: center;
+}
+
+#box {
+    margin: auto;
+    border: 1px solid black;
+    width:50%
+}
