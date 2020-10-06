@@ -1,21 +1,47 @@
 :root {
     --font: Ubuntu;
-    --background-color: rgb(59, 95, 110);
+    --text_decorations: none;
+    --background-color: rgb(220, 227, 225);
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
+    font-family: var(--font);
 }
+
+div {
+    font-size: 17px;
+}
+
 
 h1 {
     font-family: var(--font);
     text-align: center;
 }
 
-#box {
-    margin: auto;
-    border: 1px solid black;
-    width:50%
+p {
+    font-family: var(--font);
+    font-size: 25px;
+}
+
+a {
+	text-decoration: var(--text_decorations);
+	color: #2a6153;
+	font-family: var(--font);
+	/* padding: 8px; */
+}
+
+.container {
+	margin: auto;
+    width: 40%;
+    /* border: 1px solid black; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
 }
