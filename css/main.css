@@ -24,11 +24,20 @@ h1 {
 p {
     font-family: var(--font);
     font-size: 25px;
+    color: #3e2ab0;
+    width: 65%;
+}
+
+p2 {
+    font-family: var(--font);
+    font-size: 15px;
+    color: #6c6b6e;
+    width: 37%;
 }
 
 a {
 	text-decoration: var(--text_decorations);
-	color: #2a6153;
+	color: #3e2ab0;
 	font-family: var(--font);
 	/* padding: 8px; */
 }
@@ -40,8 +49,12 @@ a {
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin-top: 250px;
+	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px;
+}
+
+.mouse:hover {
+	background-color: #e26c86;
 }
