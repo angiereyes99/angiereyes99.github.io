@@ -4,12 +4,23 @@
     --background-color: rgb(220, 227, 225);
 }
 
-body {
+body { 
     margin: 0;
     padding: 0;
     background-color: var(--background-color);
     font-family: var(--font);
-}
+    animation: fadeInAnimation ease 4s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 
 div {
     font-size: 17px;
