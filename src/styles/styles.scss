@@ -1,0 +1,21 @@
+$background-color: #f5eec2;
+$primary-font: 'Trebuchet MS', san-serif;
+$primary-font-color: #416a59;
+
+body {
+    background-color: $background-color;
+    font: $primary-font;
+    height: 100%;
+}
+
+h1 {
+    font-family: $primary-font;
+    color: $primary-font-color;
+    font-weight: 1.0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
